@@ -2,6 +2,8 @@
 
 This is an example of usage karate framework for bdd based api testing
 
+Based on https://github.com/intuit/karate
+
 Feature files are in /src/test/resources/service/
 
 before run add Environment.csv to /src/test/resources/ with next data:
