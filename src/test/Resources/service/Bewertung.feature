@@ -30,6 +30,7 @@ Feature: How the services work together
   Scenario: Full Service
     Given path makers
     And param wa_key = wa_key
+    And param locale = "en_US"
     When method get
     Then status 200
     And match response == schema
@@ -40,6 +41,7 @@ Feature: How the services work together
     And def maker = makersList[random( karate.sizeOf(makersList))]
     And param manufacturer = maker
     And param wa_key = wa_key
+    And param locale = "en_US"
     When method get
     Then status 200
     And match response == schema
@@ -50,6 +52,7 @@ Feature: How the services work together
     And param manufacturer = maker
     And param main-type = modelsList[random( karate.sizeOf(modelsList))]
     And param wa_key = wa_key
+    And param locale = "en_US"
     When method get
     Then status 200
     And match response == schema
