@@ -12,11 +12,11 @@ baseUri - Base URI of the service.
 
 wa_key - key for authentification on the service
 
-Makers - 1-st endpoint
+Makers - 1-st endpoint - get list of available maker
 
-Models - 2-nd endpoint
+Models - 2-nd endpoint - set as parameter random value from makers list, return list of available models of this manufacturer
 
-Build Date - 3-rd endpoint
+Build Date - 3-rd endpoint - set as parameters random value from makers list & random value from model list, return list of available build dates
 
 _______________________________________________________________________
 
